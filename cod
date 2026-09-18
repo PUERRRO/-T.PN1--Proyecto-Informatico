@@ -1,0 +1,228 @@
+#define led1_r 3
+#define led1_a 4
+#define led1_v 5
+#define led2_r 6
+#define led2_a 7
+#define led2_v 9
+#define led3_r A1
+#define led3_a 10
+#define led3_v 11
+#define buzzer A0
+
+void setup() {
+
+  pinMode(led1_r, OUTPUT);
+  pinMode(led1_a, OUTPUT);
+  pinMode(led1_v, OUTPUT);
+  pinMode(led2_r, OUTPUT);
+  pinMode(led2_a, OUTPUT);
+  pinMode(led2_v, OUTPUT);
+  pinMode(led3_r, OUTPUT);
+  pinMode(led3_a, OUTPUT);
+  pinMode(led3_v, OUTPUT);
+  pinMode(buzzer, OUTPUT);
+}
+
+void loop() {
+
+  analogWrite(led1_r, 255);
+  delay(2000);
+  analogWrite(led1_r, 0);
+  analogWrite(buzzer, 255);
+  delay(100);
+  analogWrite(buzzer, 0);
+  delay(100);
+  
+  analogWrite(led1_r, 255);
+  analogWrite(led1_v, 50);
+  analogWrite(led2_r, 255);
+  analogWrite(led2_v, 50);
+  analogWrite(led3_r, 255);
+  analogWrite(led3_v, 50);
+  delay(100);
+  analogWrite(led1_r, 0);
+  analogWrite(led1_v, 0);
+  analogWrite(led2_r, 0);
+  analogWrite(led2_v, 0);
+  analogWrite(led3_r, 0);
+  analogWrite(led3_v, 0);
+  delay(100);
+  analogWrite(led1_r, 255);
+  analogWrite(led1_v, 50);
+  analogWrite(led2_r, 255);
+  analogWrite(led2_v, 50);
+  analogWrite(led3_r, 255);
+  analogWrite(led3_v, 50);
+  delay(100);
+  analogWrite(led1_r, 0);
+  analogWrite(led1_v, 0);
+  analogWrite(led2_r, 0);
+  analogWrite(led2_v, 0);
+  analogWrite(led3_r, 0);
+  analogWrite(led3_v, 0);
+  delay(100);
+  analogWrite(led1_r, 255);
+  analogWrite(led1_v, 50);
+  analogWrite(led2_r, 255);
+  analogWrite(led2_v, 50);
+  analogWrite(led3_r, 255);
+  analogWrite(led3_v, 50);
+  delay(100);
+  analogWrite(led1_r, 0);
+  analogWrite(led1_v, 0);
+  analogWrite(led2_r, 0);
+  analogWrite(led2_v, 0);
+  analogWrite(led3_r, 0);
+  analogWrite(led3_v, 0);
+  delay(100);
+  analogWrite(led1_r, 255);
+  analogWrite(led1_v, 50);
+  analogWrite(led2_r, 255);
+  analogWrite(led2_v, 50);
+  analogWrite(led3_r, 255);
+  analogWrite(led3_v, 50);
+  delay(100);
+  analogWrite(led1_r, 0);
+  analogWrite(led1_v, 0);
+  analogWrite(led2_r, 0);
+  analogWrite(led2_v, 0);
+  analogWrite(led3_r, 0);
+  analogWrite(led3_v, 0);
+  delay(100);
+
+  digitalWrite(led2_r, HIGH);
+  digitalWrite(led2_a, HIGH);
+  delay(2000);
+  digitalWrite(led2_r, LOW);
+  digitalWrite(led2_a, LOW);
+  analogWrite(buzzer, 255);
+  delay(100);
+  analogWrite(buzzer, 0);
+  delay(100);
+  
+  analogWrite(led1_r, 255);
+  analogWrite(led1_v, 50);
+  analogWrite(led2_r, 255);
+  analogWrite(led2_v, 50);
+  analogWrite(led3_r, 255);
+  analogWrite(led3_v, 50);
+  delay(100);
+  analogWrite(led1_r, 0);
+  analogWrite(led1_v, 0);
+  analogWrite(led2_r, 0);
+  analogWrite(led2_v, 0);
+  analogWrite(led3_r, 0);
+  analogWrite(led3_v, 0);
+  delay(100);
+  analogWrite(led1_r, 255);
+  analogWrite(led1_v, 50);
+  analogWrite(led2_r, 255);
+  analogWrite(led2_v, 50);
+  analogWrite(led3_r, 255);
+  analogWrite(led3_v, 50);
+  delay(100);
+  analogWrite(led1_r, 0);
+  analogWrite(led1_v, 0);
+  analogWrite(led2_r, 0);
+  analogWrite(led2_v, 0);
+  analogWrite(led3_r, 0);
+  analogWrite(led3_v, 0);
+  delay(100);
+  analogWrite(led1_r, 255);
+  analogWrite(led1_v, 50);
+  analogWrite(led2_r, 255);
+  analogWrite(led2_v, 50);
+  analogWrite(led3_r, 255);
+  analogWrite(led3_v, 50);
+  delay(100);
+  analogWrite(led1_r, 0);
+  analogWrite(led1_v, 0);
+  analogWrite(led2_r, 0);
+  analogWrite(led2_v, 0);
+  analogWrite(led3_r, 0);
+  analogWrite(led3_v, 0);
+  delay(100);
+  analogWrite(led1_r, 255);
+  analogWrite(led1_v, 50);
+  analogWrite(led2_r, 255);
+  analogWrite(led2_v, 50);
+  analogWrite(led3_r, 255);
+  analogWrite(led3_v, 50);
+  delay(100);
+  analogWrite(led1_r, 0);
+  analogWrite(led1_v, 0);
+  analogWrite(led2_r, 0);
+  analogWrite(led2_v, 0);
+  analogWrite(led3_r, 0);
+  analogWrite(led3_v, 0);
+  delay(100);
+  
+
+  analogWrite(led3_a, 50);
+  analogWrite(led3_v, 50);
+  delay(2000);
+  analogWrite(led3_a, 0);
+  analogWrite(led3_v, 0);
+  analogWrite(buzzer, 255);
+  delay(100);
+  analogWrite(buzzer, 0);
+  delay(100);
+  
+  analogWrite(led1_r, 255);
+  analogWrite(led1_v, 50);
+  analogWrite(led2_r, 255);
+  analogWrite(led2_v, 50);
+  analogWrite(led3_r, 255);
+  analogWrite(led3_v, 50);
+  delay(100);
+  analogWrite(led1_r, 0);
+  analogWrite(led1_v, 0);
+  analogWrite(led2_r, 0);
+  analogWrite(led2_v, 0);
+  analogWrite(led3_r, 0);
+  analogWrite(led3_v, 0);
+  delay(100);
+  analogWrite(led1_r, 255);
+  analogWrite(led1_v, 50);
+  analogWrite(led2_r, 255);
+  analogWrite(led2_v, 50);
+  analogWrite(led3_r, 255);
+  analogWrite(led3_v, 50);
+  delay(100);
+  analogWrite(led1_r, 0);
+  analogWrite(led1_v, 0);
+  analogWrite(led2_r, 0);
+  analogWrite(led2_v, 0);
+  analogWrite(led3_r, 0);
+  analogWrite(led3_v, 0);
+  delay(100);
+  analogWrite(led1_r, 255);
+  analogWrite(led1_v, 50);
+  analogWrite(led2_r, 255);
+  analogWrite(led2_v, 50);
+  analogWrite(led3_r, 255);
+  analogWrite(led3_v, 50);
+  delay(100);
+  analogWrite(led1_r, 0);
+  analogWrite(led1_v, 0);
+  analogWrite(led2_r, 0);
+  analogWrite(led2_v, 0);
+  analogWrite(led3_r, 0);
+  analogWrite(led3_v, 0);
+  delay(100);
+  analogWrite(led1_r, 255);
+  analogWrite(led1_v, 50);
+  analogWrite(led2_r, 255);
+  analogWrite(led2_v, 50);
+  analogWrite(led3_r, 255);
+  analogWrite(led3_v, 50);
+  delay(100);
+  analogWrite(led1_r, 0);
+  analogWrite(led1_v, 0);
+  analogWrite(led2_r, 0);
+  analogWrite(led2_v, 0);
+  analogWrite(led3_r, 0);
+  analogWrite(led3_v, 0);
+  delay(100);
+
+}
